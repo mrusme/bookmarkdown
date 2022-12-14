@@ -16,8 +16,8 @@ go build .
 ## Run
 
 ```sh
-open $(./bookmarkdown ${JRNL}/content/bookmarks/index.md \
+open $(bookmarkdown "${JRNL}/content/bookmarks/index.md" \
   | bemenu \
-  | ./bookmarkdown ${JRNL}/content/bookmarks/index.md -)
+  | bookmarkdown "${JRNL}/content/bookmarks/index.md" -)
 ```
 
